@@ -1,0 +1,12 @@
+/*
+
+Only IE specific other browser incompatible styles should be specified in this sheet
+
+*/
+div.info-bottom-left {
+	background: url('../img/info-bottom-left.gif') 1% 100% no-repeat;
+	height: 5px;
+	padding: 0px 0px 0px 6px;
+	margin:0px;
+	width:164px;
+}

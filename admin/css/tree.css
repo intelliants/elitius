@@ -1,0 +1,39 @@
+#treePanel{
+	padding: 6px 0px 6px 0px;
+	margin:0px;
+}
+#treePanel ul{
+	margin: 0px;
+	padding: 0px;
+	margin: 2px 0px -1px 0px;
+}
+#treePanel a{
+	text-decoration: none;
+	color: #000;
+}
+
+.treeview, .treeview ul { 
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}	
+
+.treeview li { 
+	margin: 0;	
+}
+
+ul.dir li { 
+	padding: 2px 0 3px 19px; 
+	cursor: default;
+	margin: 1px 0px -1px 0px;
+}
+ul.dir img { 
+	margin: 0px 0px -1px 4px;
+}
+
+.treeview li { background: url(../img/tv-item.gif) #fff 4px 0 no-repeat;}
+.treeview .collapsable { background-image: url(../img/tv-collapsable.gif); }
+.treeview .expandable { background-image: url(../img/tv-expandable.gif); }
+.treeview .last { background-image: url(../img/tv-item-last.gif); }
+.treeview .lastCollapsable { background-image: url(../img/tv-collapsable-last.gif); }
+.treeview .lastExpandable { background-image: url(../img/tv-expandable-last.gif); }

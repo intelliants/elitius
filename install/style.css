@@ -1,0 +1,228 @@
+body
+{
+	background: #EDEDED;
+	font-family: Verdana, Tahoma, Arial;
+	font-size: 12px;
+	padding: 0 10px;
+	margin: 0;
+}
+div.field
+{
+	font-size: 11px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+form
+{
+	margin: 0;
+	padding: 0;
+}
+a.no
+{
+	text-decoration: none;
+}
+table tr td
+{
+	padding: 5px 2px;
+}
+.tr
+{
+	background-color: #DEDEDE;
+}
+img
+{
+	border: none;
+}
+.all
+{
+	background-image: none;
+	font-weight: bold;
+}
+td, input, select, textarea
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+a:link
+{
+	color: #0240a3;
+}
+a:visited
+{
+	color: #0240a3;
+}
+a:active
+{
+	color: #000;
+}
+p
+{
+	margin: 5px 0;
+}
+.btn button
+{
+	background-image: url(img/btn_bg.gif);
+	border: 0 solid white;
+	background-repeat: no-repeat;
+	width: 91px;
+	height: 21px;
+}
+div#installation
+{
+	background: url('img/logo.gif') #FEFBEA no-repeat top left;
+	border: 1px solid #CCC;
+	margin: 20px auto;
+	padding: 89px 0 0 0;
+	width: 700px;
+}
+.inner-content
+{
+	background-color: #FFFFFF;
+	border: 1px solid #CCC;
+	margin: 0 10px 10px 10px;
+	padding: 10px;
+}
+.lgn
+{
+	margin: 0 10px 10px 0;
+	text-align: right;
+}
+#copyright
+{
+	line-height: 16px;
+	margin: 0 auto 10px auto;
+	text-align: center;
+	width: 492px;
+}
+div.error
+{
+	background: #FFEDEB url('img/ico-err.gif') left no-repeat;
+	border: 1px solid #CD5C52;
+	color: #CD5C52;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 20px;
+	margin: 0 10px;
+	padding: 10px 10px 10px 53px;
+}
+textarea:focus, input:focus
+{
+	background-color: #ffffee;
+}
+.err
+{
+	background: url("img/off.gif") no-repeat;
+	color: #C00;
+	display: none;
+	font-size: 10px;
+	line-height: 16px;
+	padding: 0 0 0 20px;
+	white-space: nowrap;
+	width: 16px;
+}
+div.notif
+{
+	background: #B1FFA2 url('../img/ico-not.gif') left no-repeat;
+	border: 1px solid #6FCD52;
+	color: #265624;
+}
+table#content
+{
+	border: 1px solid #ABABAB;
+	border-top: none;
+	width: 100%;
+}
+table#content td#left-menu
+{
+	background: url('img/left-bg.gif') repeat-x top left;
+	padding: 10px;
+	vertical-align: top;
+	width: 200px;
+}
+table#content td#page-content
+{
+	background-color: #FFF;
+	padding: 10px;
+	vertical-align: top;
+	width: 83%;
+}
+table#content td#page-copyright
+{
+	border-top: 1px solid #ABABAB;
+	padding: 10px;
+	text-align: right;
+}
+h2#install
+{
+/*	background: url('img/install.png') no-repeat left;*/
+	font-size: 18px;
+	line-height: 50px;
+	padding: 0 0 0 10px;
+}
+h3
+{
+	border-bottom: 1px solid #ABABAB;
+	font-size: 14px;
+	margin: 5px 0;
+	padding: 0;
+}
+span.no
+{
+	color: #F00;
+	font-weight: bold;
+}
+span.yes
+{
+	color: #067900;
+	font-weight: bold;
+}
+td.elem
+{
+	font-weight: bold;
+	vertical-align: top;
+	width: 150px;
+}
+.license
+{
+	background-color: #FFF;
+	border: 1px solid #ABABAB;
+	height: 400px;
+	margin: 0 10px 10px 10px;
+	width: 675px;
+}
+td.item-desc
+{
+	vertical-align: top;
+	width: 200px;
+}
+div.query
+{
+	border: 1px dotted #222;
+	color: #777;
+	font-size: 9px;
+	margin: 0 0 10px 0;
+}
+div.qerror
+{
+	color: #F00;
+	font-size: 10px;
+	margin: 0 0 5px 0;
+}
+div.db_errors
+{
+	border: 1px solid #777;
+	height: 300px;
+	margin: 10px 0 0 0;
+	overflow: scroll;
+	padding: 5px;
+	width: 300px;
+}
+div.remove_install
+{
+	background-color: #FFEDEB;
+	border: 1px dotted #CD5C52;
+	color: #CD5C52;
+	font-weight: bold;
+	padding: 5px 0;
+	text-align: center;
+}

@@ -1,0 +1,103 @@
+html, body 
+{
+	overflow: hidden;
+}
+body
+{
+	background-color: #EEEEEE;
+	height: 100%;
+	margin: 0px;
+}
+body, input, select, td
+{
+	font-size : 11px;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	color: #2A3948;
+}
+form
+{
+	margin: 0px;
+}
+a 
+{
+	color:#284C7F;
+	text-decoration: none;
+}
+#win 
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -165px;		
+	margin-left: -249px;
+	border: 1px solid #FFFFFF;
+	width: 498px;
+	height: 310px;
+	background-image: url('../images/bg.jpg');
+	background-repeat: no-repeat;
+}
+
+#logo
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 221px;
+	height: 89px;
+/*	background-image: url('../images/logo.gif');*/
+	background-repeat: no-repeat;
+}
+
+#form
+{
+	position: absolute;
+	top: 78px;
+	left: 0px;
+	width: 284px;
+	height: 190px;
+	border-right: 1px solid #FFF0C1;
+}
+#form table 
+{
+	width: 194px;
+}
+
+#form table input.txt
+{
+	width: 112px;
+	height: 17px;
+	border: 1px solid #3E5A82;
+}
+#form table select
+{
+	width: 115px;
+	height: 19px;
+	border: 1px solid #3E5A82;
+	font-size : 12px;
+	margin: 0px;
+}
+#form table input.button {
+	border : solid 1px #769CC6;
+	background: #DEBC55;
+	color : #FFFFFF;
+	font-size : 11px;
+	padding: 2px;
+	width: 70px;
+}
+#info
+{
+	 position: absolute;
+	 top: 110px;
+	 left: 330px;
+	 width: 125px;
+	 text-align: left;
+}
+#copy
+{
+	position: absolute;
+	top: 322px;
+	left: 0px;
+	font-size: 10px;
+	color: #656565;
+	text-align: left;
+}
