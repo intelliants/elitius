@@ -1,23 +1,22 @@
 <?php
-/******************************************************************************
-*
-*       COMPANY: Intelliants LLC
-*       PROJECT: eLitius Affiliate Tracking Software
-*       VERSION: #VERSION#
-*       LISENSE: #NUMBER# - http://www.elitius.com/license.html
-*       http://www.elitius.com/
-*
-*       This program is a commercial software and any kind of using it must agree
-*       to eLitius Affiliate Tracking Software.
-*
-*       Link to eLitius.com may not be removed from the software pages without
-*       permission of eLitius respective owners. This copyright notice may not
-*       be removed from source code in any case.
-*
-*       Copyright #YEAR# Intelliants LLC
-*       http://www.intelliants.com/
-*
-******************************************************************************/
+/***************************************************************************
+ *
+ *	 PROJECT: eLitius Open Source Affiliate Software
+ *	 VERSION: 1.0
+ *	 LISENSE: GNU GPL (http://www.opensource.org/licenses/gpl-license.html)
+ *
+ *   This program is free software; you can redistribute it and/or modify
+ *   it under the terms of the GNU General Public License as published by
+ *   the Free Software Foundation.
+ *
+ *   Link to eLitius.com can not be removed from the software pages without
+ *	 permission of the eLitius respective owners. It is the only requirement
+ *	 for using this software.
+ *
+ *   Copyright 2009 Intelliants LLC
+ *   http://www.intelliants.com/
+ *
+ ***************************************************************************/
 
 $gProtected = TRUE;
 
@@ -55,7 +54,6 @@ if((INT)$_GET['ad']>0)
 	document.write("<font onmouseover=\"self.status='Visit <?php echo $stitle;?>!' ; return true\" onMouseout=\"window.status=' '; return true\">");
 	document.write("<font color='"+XP_LinkColor+"'><u style='text-decoration: underline;'><?php echo $stitle;?></u></font></font>");
 	document.write("<BR><font color='"+XP_TextColor+"'><?php echo $text;?></font></td></tr></table></div></center></td></tr></table></div>");
-
 <?php
 }
 ?>

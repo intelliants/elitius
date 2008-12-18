@@ -1,23 +1,22 @@
 <?php
-/******************************************************************************
-*
-*       COMPANY: Intelliants LLC
-*       PROJECT: elitius Affiliate Tracking Software
-*       VERSION: #VERSION#
-*       LISENSE: #NUMBER# - http://www.elitius.com/license.html
-*       http://www.elitius.com/
-*
-*       This program is a commercial software and any kind of using it must agree
-*       to elitius Affiliate Tracking Software.
-*
-*       Link to elitius.com may not be removed from the software pages without
-*       permission of elitius respective owners. This copyright notice may not
-*       be removed from source code in any case.
-*
-*       Copyright #YEAR# Intelliants LLC
-*       http://www.intelliants.com/
-*
-******************************************************************************/
+/***************************************************************************
+ *
+ *	 PROJECT: eLitius Open Source Affiliate Software
+ *	 VERSION: 1.0
+ *	 LISENSE: GNU GPL (http://www.opensource.org/licenses/gpl-license.html)
+ *
+ *   This program is free software; you can redistribute it and/or modify
+ *   it under the terms of the GNU General Public License as published by
+ *   the Free Software Foundation.
+ *
+ *   Link to eLitius.com can not be removed from the software pages without
+ *	 permission of the eLitius respective owners. It is the only requirement
+ *	 for using this software.
+ *
+ *   Copyright 2009 Intelliants LLC
+ *   http://www.intelliants.com/
+ *
+ ***************************************************************************/
 
 require_once('./init.php');
 
