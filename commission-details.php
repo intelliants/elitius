@@ -43,7 +43,7 @@ if(!$com_id)
 	{
 		case 'pending':
 			$commissions = $gXpDb->getCommissionsByStatus($aff['id'], 1, $start, ITEMS_PER_PAGE);
-			$total = $gXpDb->getCommissionsByStatus(0);
+			$total = $gXpDb->getCommissionsByStatus(1);
 			$url = "commission-details.php?type=pending";
 			break;
 		case 'approved':
